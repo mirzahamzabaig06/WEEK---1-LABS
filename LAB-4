@@ -1,0 +1,11 @@
+public class Lab04 {
+public static void main(String[] args) {
+int scores[] = {80, 90, 70, 85, 95};
+int total = 0;
+for (int i = 0; i < scores.length; i++) {
+total = total + scores[i];
+}
+double avg = total / scores.length;
+System.out.println("Average Score = " + avg);
+}
+}
